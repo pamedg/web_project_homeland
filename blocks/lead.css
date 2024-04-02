@@ -1,0 +1,30 @@
+.lead {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.lead__title {
+  width: 793px;
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  box-align: center;
+  color: #ffffff;
+}
+
+.lead__subtitle {
+  width: 720px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  box-align: center;
+  color: #ffffff;
+}
+
+.lead__image {
+  width: 984px;
+}
