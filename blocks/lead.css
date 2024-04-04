@@ -28,4 +28,29 @@
 
 .lead__image {
   width: 984px;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    width: 768px;
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead_title {
+    max-width: 288px;
+    max-height: 88px;
+  }
+
+  .lead__subtitle {
+    max-width: 288px;
+    max-height: 40px;
+  }
+
+  .lead__image {
+    max-width: 320px;
+    max-height: 200px;
+  }
 }

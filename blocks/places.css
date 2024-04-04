@@ -7,6 +7,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px 20px;
+  max-width: 984px;
+  max-height: 756px;
 }
 
 .place__title {
@@ -27,7 +29,6 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 14.52px;
-  letter: 12%;
   color: #aaaaaa;
   align-self: end;
 }
@@ -66,14 +67,14 @@
   margin: auto;
 }
 
-@media screen and (max-width: 320px) {
-  .place {
-    display: block;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .place {
     display: grid;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    display: block;
   }
 }
