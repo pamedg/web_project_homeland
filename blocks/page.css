@@ -2,3 +2,17 @@
   background-color: #2a2c2f;
   margin: auto;
 }
+
+@media screen and (max-width: 768px) {
+  .page {
+    max-width: 768px;
+    max-height: 7382px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    max-width: 320px;
+    max-height: 626px;
+  }
+}
