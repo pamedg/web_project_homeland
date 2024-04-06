@@ -7,6 +7,10 @@
 @import url("../blocks/places.css");
 @import url("../blocks/cover.css");
 @import url("../blocks/footer.css");
+@font-face {
+  font-family: "Inter";
+  src: url(../vendor/fonts.css/Inter.ttc);
+}
 
 @media (max-width: 320px) {
 }
