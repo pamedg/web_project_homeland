@@ -1,14 +1,18 @@
 .places {
   max-width: 978px;
-  align-content: center;
+  align-items: center;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 .place {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 20px 20px;
   max-width: 984px;
-  max-height: 756px;
+  max-height: 859px;
 }
 
 .place__title {
@@ -17,6 +21,7 @@
   font-size: 72px;
   line-height: 76px;
   color: #ffffff;
+  margin: 0;
 }
 
 .place__photo {
@@ -31,6 +36,7 @@
   line-height: 14.52px;
   color: #aaaaaa;
   align-self: end;
+  margin: 0;
 }
 
 .place__artist {
@@ -45,6 +51,7 @@
 .place__paragraph {
   grid-row: 2/4;
   grid-column-start: 2;
+  margin: 0;
 }
 
 .place__text {
@@ -54,10 +61,11 @@
   font-size: 18px;
   line-height: 29.34px;
   color: #ffffff;
+  margin: 0;
 }
 
 .place__button {
-  width: 400px;
+  max-width: 400px;
   height: 48px;
   border-radius: 4px;
   padding: 13px 20px 13px 20px;
@@ -65,16 +73,55 @@
   background-color: #0278fe;
   color: #ffffff;
   margin: auto;
+  margin-left: 10px;
 }
 
 @media screen and (max-width: 768px) {
   .place {
     display: grid;
   }
+
+  .place__title {
+    max-width: 340px;
+    height: 92px;
+  }
+
+  .place__photo {
+    max-width: 340px;
+    height: 340px;
+  }
+
+  .place__button {
+    max-width: 355px;
+    height: 48px;
+  }
+
+  .place__paragraph {
+    max-width: 352px;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .place {
     display: block;
+  }
+
+  .place__title {
+    max-width: 288px;
+    height: 35px;
+  }
+
+  .place__photo {
+    max-width: 320px;
+    height: 320px;
+  }
+
+  .place__button {
+    max-width: 288px;
+    height: 48px;
+  }
+
+  .place__paragraph {
+    max-width: 288px;
   }
 }

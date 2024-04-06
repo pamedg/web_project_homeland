@@ -14,6 +14,8 @@
   line-height: 100px;
   box-align: center;
   color: #ffffff;
+  margin: 0;
+  margin-bottom: 40px;
 }
 
 .lead__subtitle {
@@ -24,6 +26,8 @@
   line-height: 36px;
   box-align: center;
   color: #ffffff;
+  margin: 0;
+  margin-bottom: 60px;
 }
 
 .lead__image {
@@ -32,21 +36,25 @@
 }
 
 @media screen and (max-width: 768px) {
+  .lead__title {
+    max-width: 720px;
+    max-height: 200px;
+  }
   .lead__image {
-    width: 768px;
-    height: 480px;
+    max-width: 768px;
+    max-height: 480px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead_title {
     max-width: 288px;
-    max-height: 88px;
+    max-height: 188px;
   }
 
   .lead__subtitle {
-    max-width: 288px;
-    max-height: 40px;
+    width: 288px;
+    height: 40px;
   }
 
   .lead__image {

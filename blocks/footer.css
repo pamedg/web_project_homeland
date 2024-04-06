@@ -9,3 +9,10 @@
   color: #ffffff;
   margin: auto;
 }
+
+@media screen and (max-width: 320px) {
+  .footer {
+    max-width: 191px;
+    height: 14px;
+  }
+}
