@@ -94,6 +94,10 @@
   .place__button {
     max-width: 355px;
     height: 48px;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.78px;
   }
 
   .place__paragraph {
@@ -119,6 +123,11 @@
   .place__button {
     max-width: 288px;
     height: 48px;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.94px;
+    align-content: center;
   }
 
   .place__paragraph {
