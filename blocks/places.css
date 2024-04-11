@@ -78,6 +78,11 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 21.78px;
+  border: none;
+}
+
+.place__button:hover {
+  background-color: #0063d2;
 }
 
 @media screen and (max-width: 768px) {
