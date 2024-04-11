@@ -1,7 +1,7 @@
 .cover {
   display: flex;
   justify-content: center;
-  background-image: url(../images/__backgroundcover.png);
+  background-image: url(../images/backgroundcover.png);
   margin: auto;
   max-width: 1184px;
   height: 740px;
@@ -16,11 +16,10 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
 }
 
-.cover:hover {
-  background-color: #2a2c2f;
+.cover:hover .cover__hov {
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .cover__title {
