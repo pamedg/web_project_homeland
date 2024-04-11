@@ -65,7 +65,7 @@
 }
 
 .place__button {
-  max-width: 400px;
+  max-width: 355px;
   height: 48px;
   border-radius: 4px;
   padding: 13px 20px 13px 20px;
@@ -74,6 +74,10 @@
   color: #ffffff;
   margin: auto;
   margin-left: 10px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21.78px;
 }
 
 @media screen and (max-width: 768px) {
